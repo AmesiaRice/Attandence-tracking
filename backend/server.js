@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwhbvdK8LrHwEQEGpeOkf1PCJnLlZHgPxobywKV6Nb6gv_h_CND6N9yDzwurONqyqUAQw/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz9wY3w1C1uOTpEoy55Hag-9GmICIEeAvQvdcLJ7JSEwHKughmL_YdBYe0ye1T_5OPSpA/exec';
 
 app.post('/attendance', async (req, res) => {
   try {
